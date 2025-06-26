@@ -67,10 +67,6 @@
 *.la
 *.ln
 
-# Compiled Python files (if you ever use Python in conjunction with C++)
-*.pyc
-__pycache__/
-
 # Package files
 *.zip
 *.tar
@@ -91,7 +87,3 @@ __pycache__/
 
 # macOS specific files
 .DS_Store
-
-# Dependency build artifacts (if using FetchContent or similar)
-# This would be for external libraries like SFML if built within your project
-/_deps/
